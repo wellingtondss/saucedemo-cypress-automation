@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-cypress-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SauceDemo E2E automation tests using Cypress",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^15.11.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}
