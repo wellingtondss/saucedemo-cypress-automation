@@ -2,6 +2,19 @@
 
 End-to-end automation test suite for https://www.saucedemo.com/ using Cypress (JavaScript).
 
+## Quick Evidence
+
+### Mochawesome Report
+![Mochawesome Report](docs/mochawesome-report.png)
+
+### Login Flow Execution
+![Login Flow](docs/login-flow.gif)
+
+### Purchase Flow Execution
+![Purchase Flow](docs/purchase-flow.gif)
+
+---
+
 ## Goal
 Create a small end-to-end automation test suite covering:
 - Login flow validations
@@ -59,7 +72,6 @@ Limitations:
 ---
 
 ## What I would improve with more time
-
 - Add CI pipeline (GitHub Actions) to execute tests automatically on each push/pull request.
 - Upload CI artifacts (Mochawesome report, screenshots/videos on failure).
 - Add more negative scenarios:
@@ -69,9 +81,7 @@ Limitations:
   - Remove items and validate cart badge count updates.
 - Add assertions for checkout totals (subtotal, tax, total).
 
---------------
+---
 
 ## Time spent
-
-Approximately 3 hours were spent on this task (including setup, implementation, stabilization/debugging, and documentation).  
-The original task recommendation was ~2 hours; additional time was used to stabilize selectors, implement item validation in checkout, and configure reporting.
+Approximately 3 hours were spent on this task. The original recommendation was ~2 hours; additional time was used to stabilize selectors, implement checkout item validation, and configure reporting.
